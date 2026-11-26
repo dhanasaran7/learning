@@ -1,0 +1,6 @@
+step=1, loss=27.666667, weight=2.266667, bias=1.000000
+step=2, loss=0.331852, weight=2.017778, bias=0.893333
+step=10, loss=0.000939, weight=2.034733, bias=0.921043
+step=100, loss=0.000012, weight=2.003887, bias=0.991163
+Prediction for house size 4: 9.006713
+Checks passed.

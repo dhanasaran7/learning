@@ -18,7 +18,9 @@ You can check the process id and cmd which is being executed using:
 ps -p "$!" -o pid,cmd
 ```
 
-Process ID value stays the same until you start another background job. If the process exits, `$!` still contains its PID; it doesn’t automatically clear or switch to another process.
+A process keeps its PID while it is alive.
+
+`$!` is a shell variable. When the shell starts another background job, `$!` changes to contain the new job's PID. The older process keeps its original PID.
 
 ## `$$`
 
